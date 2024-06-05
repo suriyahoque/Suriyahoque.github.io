@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NAAILAH'S CAFE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <link rel="stylesheet" href="open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="animate.css">
+    
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="magnific-popup.css">
+
+    <link rel="stylesheet" href="aos.css">
+
+    <link rel="stylesheet" href="ionicons.min.css">
+
+    <link rel="stylesheet" href="bootstrap-datepicker.css">
+    <link rel="stylesheet" href="jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="flaticon.css">
+    <link rel="stylesheet" href="icomoon.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+	<style>
+        body {
+            background-image: url('shopping.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+		a {cursor:url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAGAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABgAAAAMAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADAAAADAAAABUAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAVAAAADwAAAAgAAAAGAAAAAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAABQAAAA8AAAAfAAAALwAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAAC8AAAAlAAAAHAAAABUAAAAPAAAABgAAAAMAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAATAAAAJQAAADUAAABFAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAARQAAAD8AAAA4AAAALwAAACUAAAAVAAAADwAAAAgAAAAGAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAACW9rJv/vayb/72sm/+9rJv/vayb/72sm/+9rJv/vayb/wAAAFMAAABRAAAATgAAAEwAAABFAAAAPwAAAC8AAAAlAAAAHAAAABUAAAALAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXvayb/72sm/+9rJv/vayb/72sm/+9rJv/vayb/72sm/+9rJv/vayb/72sm/+9rJv/AAAAUwAAAFAAAABOAAAARAAAAD4AAAA1AAAAKQAAABcAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvayb/72sm/+9rJv/vayb/72sm/+9rJv/vayb/72sm/+9rJv/vayb/72sm/+9rJv/vayb/72sm/+9rJv/vayb/wAAAE8AAABJAAAARgAAAD0AAAAwAAAAGQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9rJv/vayb/72sm/+9rJv/h3hp/4d4af+HeGn/h3hp/4d4af+HeGn/h3hp/4d4af+HeGn/vayb/72sm/+9rJv/vayb/72sm/+9rJv/AAAALgAAACIAAAAQAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL2sm/+9rJv/vayb/2FcVt9hXFZuYVxWbv//////////////////////////YVxW34d4af+HeGn/vayb/72sm/+9rJv/vayb/72sm/+9rJv/AAAAEgAAAAYAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL2sm/9hXFbfYVxWbv//////////////////////////////////////////YVxW32FcVt+9rJv/vayb/72sm/+9rJv/AAAAIwAAABsAAAAQAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYVxW32FcVm7//////////////////////////////////////////////////////////wAAAFUAAABTAAAASgAAAD4AAAA0AAAAKgAAABwAAAAMAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABhXFbfYVxWbv///////////////////////////////////////////////////////////////wAAAFQAAABRAAAARQAAADkAAAAzAAAALAAAABwAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYVxW32FcVm7/////////////////////////////////////////////////////////////////////////////////////AAAALgAAACsAAAA1AAAALAAAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABhXFbf////////////////////////////////////////////////////////////////////////////////////////////////AAAAIQAAADgAAAA1AAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGFcVm7//////////////////////////////////////////////////////////////////////////2FcVt8AAABVAAAAOf//////////AAAAOAAAADgAAAAbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYVxWbv//////////////////////////////////////////////////////////////////////////YVxW3wAAAFUAAAA7//////////8AAAA4AAAANQAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABhXFZu//////////////////////////////////////////////////////////////////////////9hXFbfAAAAVAAAAEH//////////wAAADUAAAAsAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGFcVm7//////////////////////////////////////////////////////////////////////////2FcVt8AAABRAAAARf//////////AAAALAAAABwAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYVxWbv///////////////////////////////////////////////////////////////////////////////wAAAEUAAAA8//////////8AAAAcAAAADAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABhXFbf////////////////EDhw8RA4cPEQOHDxEDhw8RA4cPEQOHDxEDhw8RA4cPH/////////////////////YVxW3///////////AAAAFQAAAAwAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGFcVt//////EDhw8RA4cPEQOHDxEDhw8RA4cPFGPje8Rj43vkY+N78QOHDxEDhw8RA4cPEQOHDx/////////////////////wAAAAgAAAAGAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGFcVt///////////xA4cPEQOHDxEDhw8RA4cPEQOHDxRj43uRA4cPEQOHDxEDhw8f//////////AAAADwAAAAYAAAADAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGFcVt9hXFbf//////////////////////////9GPjez////////////////AAAACAAAAAYAAAADAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAFGPjerRj43rwAAABUAAAAPAAAABQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEY+N6oAAAAMAAAAEQAAAA8AAAAHAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGPjepAAAAAgAAAAYAAAAOAAAAEQAAAAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGPjepAAAAAgAAAAsAAAARAAAADwAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGPjepAAAACAAAAAwAAAAMAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGPjerAAAABgAAAAYAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARj43qQAAAAIAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////////////////////////////4B///8AD//8AAP//AAAf/wwAD/+QAD//oAP//6AB//9AAD//AAAf/4AAz/+AAM//gADP/4AAz/+AAM//AAAf/wAAP/+AAf//wAf///5////+/////f////7/////f////7////9//8='),
+		 auto; }
+		.services .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    margin: 0 auto; /* Center the icon container within its parent */
+}
+
+.services .icon span {
+    font-size: 3em; /* Adjust the size as needed */
+    line-height: 10; /* Ensure the icon is vertically centered */
+}
+
+    </style>
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">NAAILAH'S<small>CAFE</small></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="shop.html">Shop</a>
+                <a class="dropdown-item" href="checkout.html">Checkout</a>
+              </div>
+            </li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item cart">
+				<a href="checkout.html" class="nav-link">
+				  <span class="fas fa-shopping-cart"></span>
+				  <span class="bag d-flex justify-content-center align-items-center">
+					<small>1</small>
+				  </span>
+				</a>
+			  </li>
+			  
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url(coofee\ bg.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-8 col-sm-12 text-center ftco-animate">
+            	<span class="subheading">Welcome to naailah's cafe</span>
+              <h1 class="mb-4">Awaken Your Senses, One Sip at a Time</h1>
+              <p class="mb-4 mb-md-5">Dive into a rich sensory experience with each cup. Our coffee is crafted to invigorate your mind and tantalize your taste buds, offering a perfect start or delightful pause in your day.</p>
+              <p><a href="shop.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="menu.html" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url(coffeeeeeeeee.webp);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-8 col-sm-12 text-center ftco-animate">
+            	<span class="subheading">Welcome to naailah's cafe </span>
+              <h1 class="mb-4">Brewed to Perfection, Served with Love</h1>
+              <p class="mb-4 mb-md-5">Every cup at our cafe is a masterpiece of flavor, brewed with precision and care. We take pride in serving not just coffee, but a warm, comforting experience that feels like home.</p>
+              <p><a href="shop.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="menu.html" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url(bg_1.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-8 col-sm-12 text-center ftco-animate">
+            	<span class="subheading">Welcome to naailah's cafe</span>
+              <h1 class="mb-4">Your Daily Grind, Elevated</h1>
+              <p class="mb-4 mb-md-5">Elevate your everyday coffee ritual with our premium blends. Whether it's a bustling morning or a relaxed afternoon, our coffee promises to enhance your routine with exceptional taste and quality.</p>
+              <p><a href="shop.html"  class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="menu.html"  class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-intro">
+    	<div class="container-wrap">
+    		<div class="wrap d-md-flex align-items-xl-end">
+	    		<div class="info">
+	    			<div class="row no-gutters">
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-phone"></span></div>
+	    					<div class="text">
+	    						<h3>+971556484573</h3>
+	    						<p>Where Every Cup Tells a Story.</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-my_location"></span></div>
+	    					<div class="text">
+	    						<h3>Al Fisht 1 - Al Heerah Suburb - Sharjah</h3>
+	    						<p>	Sharjah, United Arab Emirates</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-clock-o"></span></div>
+	    					<div class="text">
+	    						<h3>Open SATURDAY-THURSDAY</h3>
+	    						<p>10:00am - 10:00pm</p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="book p-4">
+	    			<h3>Book a Table</h3>
+	    			<form action="#" class="appointment-form">
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="First Name">
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Last Name">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<div class="input-wrap">
+		            		<div class="icon"></div>
+		            		<input type="text" class="form-control appointment_date" placeholder="Date">
+	            		</div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<div class="input-wrap">
+		            		<div class="icon"></div>
+		            		<input type="text" class="form-control appointment_time" placeholder="Time">
+	            		</div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Phone">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+	    					<div class="form-group">
+		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+		            </div>
+		            <div class="form-group ml-md-4">
+		              <input type="submit" value="Appointment" class="btn btn-white py-3 px-4">
+		            </div>
+	    				</div>
+	    			</form>
+	    		</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-about d-md-flex">
+    	<div class="one-half img" style="background-image: url(about.jpg);"></div>
+    	<div class="one-half ftco-animate">
+    		<div class="overlap">
+	        <div class="heading-section ftco-animate ">
+	        	<span class="subheading">Discover</span>
+	          <h2 class="mb-4">Our Story</h2>
+	        </div>
+	        <div>
+	  				<p>
+						Naailah had always been passionate about coffee. Growing up, she spent countless hours in local cafes, captivated by the aroma and the sense of community they fostered. After years of working a corporate job, she decided it was time to turn her passion into a reality.
+						
+						In 2022, Naailah left her job and began planning her dream cafe. She spent months researching coffee beans, experimenting with brewing methods, and learning the art of latte art. Naailah also traveled to coffee farms to understand the journey from bean to cup, ensuring she could offer the best to her customers.
+						
+						With a clear vision and savings, she found a cozy spot in her hometown and opened Naailah's Cafe. Her cafe quickly became known for its warm atmosphere, exceptional coffee, and personal touch. Each cup served at Naailah's Cafe is a testament to her dedication and love for coffee, creating a space where everyone feels at home.</p>
+	  			</div>
+  			</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-services">
+    	<div class="container">
+    		<div class="row">
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5">
+              	<span class="flaticon-choices"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Easy to Order</h3>
+                <p>At Naailah's Cafe, we believe ordering your favorite coffee should be as delightful as drinking it. Our streamlined ordering system ensures you can quickly and easily select your drink, whether you're in a hurry or looking to savor the moment.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5">
+              	<span class="flaticon-delivery-truck"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Fastest Delivery</h3>
+                <p>Experience the fastest coffee delivery with Naailah's Cafe. Freshly brewed and at your door in no time, so you can enjoy your favorite coffee without the wait.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5">
+              	<span class="flaticon-coffee-bean"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Quality Coffee</h3>
+                <p>At Naailah's Cafe, we serve only the highest quality coffee. Each cup is crafted with the finest beans and meticulous care, ensuring a rich and satisfying flavor every time. Enjoy the perfect brew, made just for you.</p>
+              </div>
+            </div>    
+          </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row align-items-center">
+    			<div class="col-md-6 pr-md-5">
+    				<div class="heading-section text-md-right ftco-animate">
+	          	<span class="subheading">Discover</span>
+	            <h2 class="mb-4">Our Menu</h2>
+	            <p class="mb-4">Discover our menu at Naailah's Cafe, featuring a delightful array of freshly brewed coffees, specialty lattes, and delectable pastries. Each item is crafted to perfection, ensuring a delicious experience with every bite and sip.</p>
+	            <p><a href="menu.html" class="btn btn-primary btn-outline-primary px-4 py-3">View Full Menu</a></p>
+	          </div>
+    			</div>
+    			<div class="col-md-6">
+    				<div class="row">
+    					<div class="col-md-6">
+    						<div class="menu-entry">
+		    					<a href="menu.html" class="img" style="background-image: url(menu-1.jpg);"></a>
+		    				</div>
+    					</div>
+    					<div class="col-md-6">
+    						<div class="menu-entry mt-lg-4">
+		    					<a href="menu.html" class="img" style="background-image: url(Expresso.jpg);"></a>
+		    				</div>
+    					</div>
+    					<div class="col-md-6">
+    						<div class="menu-entry">
+		    					<a href="menu.html" class="img" style="background-image: url(menu-3.jpg);"></a>
+		    				</div>
+    					</div>
+    					<div class="col-md-6">
+    						<div class="menu-entry mt-lg-4">
+		    					<a href="menu.html" class="img" style="background-image: url(Americano.jpg);"></a>
+		    				</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(bg_2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+        	<div class="col-md-10">
+        		<div class="row">
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-coffee-cup"></span></div>
+		              	<strong class="number" data-number="100">0</strong>
+		              	<span>Coffee Branches</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-coffee-cup"></span></div>
+		              	<strong class="number" data-number="85">0</strong>
+		              	<span>Number of Awards</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-coffee-cup"></span></div>
+		              	<strong class="number" data-number="10567">0</strong>
+		              	<span>Happy Customer</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-coffee-cup"></span></div>
+		              	<strong class="number" data-number="900">0</strong>
+		              	<span>Staff</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+          	<span class="subheading">Discover</span>
+            <h2 class="mb-4">Best Coffee Sellers</h2>
+            <p>Our bestsellers at Naailah's Cafe include the rich and bold Espresso, the creamy and smooth Caramel Latte, and our signature House Blend. Each of these favorites promises a delightful coffee experience that keeps our customers coming back for more.</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a  class="img" style="background-image: url(menu-4.jpg);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a >Coffee Latte</a></h3>
+    						<p>Savor the creamy goodness of our latte at Naailah's Cafe. Made with a perfect balance of rich espresso and velvety steamed milk, it's a smooth and indulgent treat for any time of day. Enjoy the comforting embrace of our latte, crafted with care to elevate your coffee experience.</p>
+    						<p class="price"><span>AED27.50</span></p>
+    						<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+    					</div>
+    				</div>
+        	</div>
+        	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a  class="img" style="background-image: url(menu-1.jpg);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a >Coffee Capuccino</a></h3>
+    						<p>Indulge in the classic perfection of our cappuccino at Naailah's Cafe. Expertly crafted with velvety espresso, creamy steamed milk, and a delicate frothy topping, it's the epitome of coffee luxury. Enjoy a blissful moment with every sip of our exquisite cappuccino.</p>
+    						<p class="price"><span>AED30.00</span></p>
+    						<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+    					</div>
+    				</div>
+        	</div>
+        	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a  class="img" style="background-image: url(Expresso.jpg);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a >Coffee Expresso</a></h3>
+    						<p>At Naailah's Cafe, our espresso is a bold and flavorful experience that packs a punch. Served in a small, concentrated shot, it's the perfect pick-me-up for coffee enthusiasts seeking intense flavor and aroma. Indulge in the rich complexity of our espresso, crafted to perfection every time.</p>
+    						<p class="price"><span>AED21.00</span></p>
+    						<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+    					</div>
+    				</div>
+        	</div>
+        	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a  class="img" style="background-image: url(Americano.jpg);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a >Coffee Americano</a></h3>
+    						<p>Experience the bold simplicity of our Americano at Naailah's Cafe. Crafted by combining rich espresso with hot water, it's a smooth and robust coffee that's perfect for those who prefer a stronger brew. Dive into the pure essence of coffee with our expertly prepared Americano, served just the way you like it.</p>
+    						<p class="price"><span>AED19.00</span></p>
+    						<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+    					</div>
+    				</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-gallery">
+    	<div class="container-wrap">
+    		<div class="row no-gutters">
+					<div class="col-md-3 ftco-animate">
+						<a href="coffee place 1.jpg" class="gallery img d-flex align-items-center" style="background-image: url(coffee\ place\ 1.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="coffee place 2.jpg" class="gallery img d-flex align-items-center" style="background-image: url(coffee\ place\ 2.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="coffee place 3.jpg" class="gallery img d-flex align-items-center" style="background-image: url(coffee\ place\ 3.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(gallery-4.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
+
+		<section class="ftco-menu">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+          	<span class="subheading">Discover</span>
+            <h2 class="mb-4">Our Products</h2>
+            <p>At Naailah Cafe, we offer a delightful array of freshly brewed coffees, including espresso, lattes, cappuccinos, and Americanos. Pair your favorite brew with our selection of delectable pastries for the perfect treat any time of day.
+			</p>
+          </div>
+        </div>
+    		<div class="row d-md-flex">
+	    		<div class="col-lg-12 ftco-animate p-md-5">
+		    		<div class="row">
+		          <div class="col-md-12 nav-link-wrap mb-5">
+		            <div class="nav ftco-animate nav-pills justify-content-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Main Dish</a>
+
+		              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Drinks</a>
+
+		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Desserts</a>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex align-items-center">
+		            
+		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+		              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+		              	<div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="chicken panini.jpg" class="menu-img img mb-4" style="background-image: url(chicken\ panini.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="chicken panini.jpg">Grilled Chicken Panini</a></h3>
+		              					<p>Tender grilled chicken breast, melted cheese, and fresh vegetables sandwiched between slices of toasted artisan bread. Served with a side of crispy fries or a garden salad.</p>
+		              					<p class="price"><span>AED25.00</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="VEGETARIAN QUINOA SALAD.jpeg" class="menu-img img mb-4" style="background-image: url(VEGETARIAN\ QUINOA\ SALAD.jpeg);"></a>
+		              				<div class="text">
+		              					<h3><a href="VEGETARIAN QUINOA SALAD.jpeg">Vegetarian Quinoa Salad</a></h3>
+		              					<p> A refreshing salad bowl packed with nutritious quinoa, mixed greens, cherry tomatoes, cucumbers, avocado slices, and crumbled feta cheese. Drizzled with a zesty lemon vinaigrette.</p>
+		              					<p class="price"><span>AED29.00</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="CLASSIC BEEF BURGER.avif" class="menu-img img mb-4" style="background-image: url(CLASSIC\ BEEF\ BURGER.avif);"></a>
+		              				<div class="text">
+		              					<h3><a href="CLASSIC BEEF BURGER.avif">Classic Beef Burger</a></h3>
+		              					<p>Juicy beef patty topped with melted cheese, crisp lettuce, ripe tomatoes, onions, and pickles, all nestled in a toasted brioche bun. Served with a side of golden fries or a fresh garden salad.</p>
+		              					<p class="price"><span>AED39.00</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="ICED CARAMEL MACCHIATO.jpg" class="menu-img img mb-4" style="background-image: url(ICED\ CARAMEL\ MACCHIATO.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="ICED CARAMEL MACCHIATO.jpg">Iced Caramel Macchiato</a></h3>
+		              					<p>Indulge in the perfect blend of espresso, creamy milk, and rich caramel syrup, served over ice. Topped with a swirl of whipped cream and a drizzle of caramel sauce for an extra touch of sweetness.</p>
+		              					<p class="price"><span>AED24.00</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="MATCHA GREEN TEA LATTE.jpg" class="menu-img img mb-4" style="background-image: url(MATCHA\ GREEN\ TEA\ LATTE.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="MATCHA GREEN TEA LATTE.jpg">Matcha Green Tea Latte</a></h3>
+		              					<p>A soothing blend of premium matcha green tea powder and steamed milk, creating a velvety smooth latte with a subtle earthy flavor and vibrant green hue. Served hot or over ice.</p>
+		              					<p class="price"><span>AED23.00</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="CLASSIC HOT CHOCOLATE.jpg" class="menu-img img mb-4" style="background-image: url(CLASSIC\ HOT\ CHOCOLATE.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="CLASSIC HOT CHOCOLATE.jpg">Classic Hot Chocolate</a></h3>
+		              					<p>A comforting classic made with rich cocoa powder, steamed milk, and a hint of vanilla, topped with a generous dollop of whipped cream and a sprinkle of chocolate shavings. Perfect for warming up on chilly days.</p>
+		              					<p class="price"><span>AED23.00</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="NEW YORK CHEESECAKE.jpg" class="menu-img img mb-4" style="background-image: url(NEW\ YORK\ CHEESECAKE.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="NEW YORK CHEESECAKE.jpg">New York Cheesecake</a></h3>
+		              					<p>Indulge in a slice of velvety smooth New York-style cheesecake with a buttery graham cracker crust. Topped with a luscious layer of sweet sour cream and finished with your choice of fruit compote or chocolate ganache.</p>
+		              					<p class="price"><span>AED35.00</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="CHOCOLATE LAVA CAKE.jpg" class="menu-img img mb-4" style="background-image: url(CHOCOLATE\ LAVA\ CAKE.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="CHOCOLATE LAVA CAKE.jpg">Chocolate Lava Cake</a></h3>
+		              					<p>Dive into decadence with our rich and gooey chocolate lava cake. A warm and moist chocolate cake filled with a molten chocolate center, served with a scoop of creamy vanilla ice cream and drizzled with chocolate sauce.</p>
+		              					<p class="price"><span>AED30.00</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="FRUIT TART.jpeg" class="menu-img img mb-4" style="background-image: url(FRUIT\ TART.jpeg);"></a>
+		              				<div class="text">
+		              					<h3><a href="FRUIT TART.jpeg">Fruit Tart</a></h3>
+		              					<p> A delightful combination of buttery shortbread crust filled with smooth pastry cream and topped with an assortment of fresh seasonal fruits, such as strawberries, blueberries, kiwi, and mango. A refreshing and elegant treat.</p>
+		              					<p class="price"><span>AED22.00 per tart</span></p>
+		              					<p><a href="shop.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section img" id="ftco-testimony" style="background-image: url(bg_1.jpg);"  data-stellar-background-ratio="0.5">
+    	<div class="overlay"></div>
+	    <div class="container">
+	      <div class="row justify-content-center mb-5">
+	        <div class="col-md-7 heading-section text-center ftco-animate">
+	        	<span class="subheading">Customer Reviews</span>
+	          <h2 class="mb-4">Customers Says</h2>
+	          <p>Customers rave about Naailah Cafe for its cozy atmosphere, friendly service, and top-notch menu offerings. From their delicious coffee blends to mouthwatering desserts, each visit promises a delightful experience that keeps patrons coming back for more.</p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="container-wrap">
+	      <div class="row d-flex no-gutters">
+	        <div class="col-lg align-self-sm-end ftco-animate">
+	          <div class="testimony">
+	             <blockquote>
+	                <p>"Naailah Cafe is my go-to spot for a relaxing coffee break. The atmosphere is cozy, the staff is friendly, and the coffee is always top-notch. Highly recommend their caramel macchiato!" - Sarah</p>
+	              </blockquote>
+	              <div class="author d-flex mt-4">
+	                <div class="image mr-3 align-self-center">
+	                  <img src="Sarah.jpg" alt="">
+	                </div>
+	                <div class="name align-self-center">SARAH <span class="position">Illustrator Designer</span></div>
+	              </div>
+	          </div>
+	        </div>
+	        <div class="col-lg align-self-sm-end">
+	          <div class="testimony overlay">
+	             <blockquote>
+	                <p>"I love the variety of options at Naailah Cafe. Whether I'm in the mood for a hearty sandwich or a light salad, they always have something delicious to offer. Plus, their desserts are to die for!" - Mark</p>
+	              </blockquote>
+	              <div class="author d-flex mt-4">
+	                <div class="image mr-3 align-self-center">
+	                  <img src="mark.jpg" alt="">
+	                </div>
+	                <div class="name align-self-center">MARK <span class="position">aeronautical engineer</span></div>
+	              </div>
+	          </div>
+	        </div>
+	        <div class="col-lg align-self-sm-end ftco-animate">
+	          <div class="testimony">
+	             <blockquote>
+	                <p>"I stumbled upon Naailah Cafe while exploring the neighborhood, and I'm so glad I did! Their grilled chicken panini is my absolute favorite, and I can't get enough of their matcha green tea latte. It's become my go-to spot for a quick and satisfying meal." - Emily</p>
+	              </blockquote>
+	              <div class="author d-flex mt-4">
+	                <div class="image mr-3 align-self-center">
+	                  <img src="emily.jpg" alt="">
+	                </div>
+	                <div class="name align-self-center">Emily <span class="position">Cyber security analyst</span></div>
+	              </div>
+	          </div>
+	        </div>
+	        <div class="col-lg align-self-sm-end">
+	          <div class="testimony overlay">
+	             <blockquote>
+	                <p>"Naailah Cafe has quickly become my favorite spot to unwind after a long day. The ambiance is inviting, and their classic hot chocolate is the perfect comfort drink. I also appreciate the attention to detail in their desserts; the New York cheesecake is heavenly!" - Alex</p>
+	              </blockquote>
+	              <div class="author d-flex mt-4">
+	                <div class="image mr-3 align-self-center">
+	                  <img src="alex.jpg" alt="">
+	                </div>
+	                <div class="name align-self-center">Alex <span class="position">Surgeon</span></div>
+	              </div>
+	          </div>
+	        </div>
+	        <div class="col-lg align-self-sm-end ftco-animate">
+	          <div class="testimony">
+	            <blockquote>
+	              <p>"I've been a regular at Naailah Cafe for months now, and it never disappoints. The quality of their coffee is consistently excellent, and their staff always goes above and beyond to make sure I have a great experience. I highly recommend trying their fruit tart—it's a delightful balance of flavors!" - Ryan
+				  </p>
+	            </blockquote>
+	            <div class="author d-flex mt-4">
+	              <div class="image mr-3 align-self-center">
+	                <img src="ryan.jpg" alt="">
+	              </div>
+	              <div class="name align-self-center">Ryan <span class="position">Road-side romeo</span></div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Recent from blog</h2>
+            <p>Dive into the world of café culture with our blog! From exploring the origins of coffee to sharing mouthwatering recipes and insider tips, we're your go-to source for all things coffee and café-related. Join us on a journey of flavor and discovery as we delve into the art of brewing, the joy of pastry-making, and the latest trends in the café scene.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a class="block-20" style="background-image: url('Bean\ Bliss\ A\ Journey\ Through\ Coffee\ Culture.jpg');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a >March 20, 2024				</a></div>
+                  <div><a > Michael Reynolds</a></div>
+                  <div><a  class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a >Bean Bliss: A Journey Through Coffee Culture</a></h3>
+                <p>Michael explores the global coffee culture, from the origins of different coffee beans to the rituals surrounding coffee consumption in various countries. With vivid descriptions and personal anecdotes, his blog takes readers on a flavorful journey through the world of coffee.
+				</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a class="block-20" style="background-image: url('The\ Art\ of\ Latte\ A\ Barista\'s\ Tale.webp');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a >April 10, 2024</a></div>
+                  <div><a >Sophia Patel</a></div>
+                  <div><a  class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a >The Art of Latte: A Barista's Tale</a></h3>
+                <p>Sophia shares her experiences as a barista, revealing the secrets behind crafting the perfect latte art. Through step-by-step tutorials and behind-the-scenes insights, her blog offers aspiring baristas a glimpse into the creative process of coffee making.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a class="block-20" style="background-image: url('Sweet\ Temptations\ Exploring\ Dessert\ Trends.png');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a >May 5, 2024</a></div>
+                  <div><a >Emma Johnson</a></div>
+                  <div><a  class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a >Sweet Temptations: Exploring Dessert Trends</a></h3>
+                <p>Emma delves into the latest dessert trends sweeping the café scene, from innovative pastry creations to indulgent sweet treats. With mouthwatering photos and detailed reviews, her blog provides inspiration for café owners and dessert enthusiasts alike.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		
+		<section class="ftco-appointment">
+			<div class="overlay"></div>
+    	<div class="container-wrap">
+    		<div class="row no-gutters d-md-flex align-items-center">
+    			<div class="col-md-6 d-flex align-self-stretch">
+    				<div id="map"></div>
+    			</div>
+	    		<div class="col-md-6 appointment ftco-animate">
+	    			<h3 class="mb-3">Book a Table</h3>
+	    			<form action="#" class="appointment-form">
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="First Name">
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Last Name">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<div class="input-wrap">
+		            		<div class="icon"><span class="ion-md-calendar"></span></div>
+		            		<input type="text" class="form-control appointment_date" placeholder="Date">
+	            		</div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<div class="input-wrap">
+		            		<div class="icon"><span class="ion-ios-clock"></span></div>
+		            		<input type="text" class="form-control appointment_time" placeholder="Time">
+	            		</div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Phone">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+	    					<div class="form-group">
+		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+		            </div>
+		            <div class="form-group ml-md-4">
+		              <input type="submit" value="Appointment" class="btn btn-primary py-3 px-4">
+		            </div>
+	    				</div>
+	    			</form>
+	    		</div>    			
+    		</div>
+    	</div>
+    </section>
+
+    <footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>Naailah Cafe: Where passion meets perfection in every cup. Enjoy exceptional coffee experiences in a cozy atmosphere.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(Bean\ Bliss\ A\ Journey\ Through\ Coffee\ Culture.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a >Bean Bliss: A Journey Through Coffee Culture</a></h3>
+                  <div class="meta">
+                    <div><a > March 20, 2024</a></div>
+                    <div><a > Michael Reynolds</a></div>
+                    <div><a > 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(The\ Art\ of\ Latte\ A\ Barista\'s\ Tale.webp);"></a>
+                <div class="text">
+                  <h3 class="heading"><a >The Art of Latte: A Barista's Tale</a></h3>
+                  <div class="meta">
+                    <div><a > April 10, 2024</a></div>
+                    <div><a > Sophia Patel</a></div>
+                    <div><a > 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><a href="contact.html"><span class="text">Al Fisht 1 - Al Heerah Suburb - Sharjah, United Arab Emirates</span></a></li>
+	                <li><a href="contact.html"><span class="text">+971556484573</span></a></li>
+	                <li><a href="contact.html"><span class="text">Suriyahoque30@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by SURIYA HOQUE SHETHILA  <i aria-hidden="true"></i>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="jquery.min.js"></script>
+  <script src="jquery-migrate-3.0.1.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="jquery.easing.1.3.js"></script>
+  <script src="jquery.waypoints.min.js"></script>
+  <script src="jquery.stellar.min.js"></script>
+  <script src="owl.carousel.min.js"></script>
+  <script src="jquery.magnific-popup.min.js"></script>
+  <script src="aos.js"></script>
+  <script src="jquery.animateNumber.min.js"></script>
+  <script src="bootstrap-datepicker.js"></script>
+  <script src="jquery.timepicker.min.js"></script>
+  <script src="scrollax.min.js"></script>
+  <script src="main.js"></script>
+    
+  </body>
+</html>
